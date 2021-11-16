@@ -4,6 +4,7 @@ body {
   background-color: green;
 }
 
+/* Card styles */
 .card {
   width: 350px;
   background-color: white;
@@ -30,6 +31,7 @@ body {
   color: black;
 }
 
+/* Labels on the right side of the screen */
 label {
   color: white;
 }
