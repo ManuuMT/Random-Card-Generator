@@ -22,18 +22,14 @@ body {
   text-align: center;
 }
 
-.heart,
-.diamond {
+.heart {
   color: red;
 }
 
-.spade,
-.club {
+.spade {
   color: black;
 }
 
 label {
   color: white;
 }
-
-/*heart club diamond spade ♥ ♣ ♦ ♠ */
