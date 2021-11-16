@@ -1,52 +1,67 @@
-# Hello World with Vanilla JS
+# Random Card Generator - Entregado el 17/11/21 ✅
 
-Start coding in 30 seconds by opening this template in gitpod:
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git)
 
-### Manual Installation
+## Acerca de este proyecto 
 
-1) Remember to install the npm packages first:
-```
-$ npm install
-```
 
-2) Build and Start coding!
+Se trata de un generador de cartas de póker al azar. El programa consta de 3 tipos de azar:
+1. Carta completamente al azar
+2. Carta al azar (con un valor y un palo diferente al último que haya salido)
+3. Carta al azar dentro de una baraja de 52 cartas. Ninguna carta puede repetirse jamás
 
-Build the application for the first time...
 
-```
-$ npm run start
-```
+## Tecnologías empleadas
 
-And start coding your Vanilla.js application, update the `src/index.html`, `src/index.css` or `src/app.js` depending on your needs.
+![](https://i.imgur.com/XV6nKqE.jpg)
 
-## FAQ
 
-#### 1) How do I run my code?
+## Este proyecto cumple con las siguientes reglas: 
 
-- Type on the command line `$ npm run start` and type localhost on the browser.
+- ✅ Repositorio documentado
+- ✅ Escritura tipo camel case
+- ✅ Variables y funciones en inglés
+- ✅ Comentarios en inglés
 
-#### 2) Where do I write my code?
-It depends on the language, but you have `./src/js/app.js`, `./src/style/index.css` and `./isrc/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
 
-__Note:__ remember that the JS workflow starts inside `window.onload`.
+## 1. 😵 ¿Cómo comenzar?
 
-#### 3) I don't see my changes.
 
-Everytime you change any file inside the `./src` folder the website public URL will automatically refresh the changes (it's a process called hot deploy)
-Remember also to refresh cleaning the cache (command+shift+r on mac, control+shift+r on pc & linux)
+- Opción nº1: Haz click en el botón de abajo para abrir este repositorio en tu Gitpod.
 
-#### 4) How do I include more images on my project?
-Add them inside the `./src/assets/img` folder and import them from any of your JS files. E.g: `import "../assets/img/rigo-baby.jpg";`
 
-#### 5) How do I include more JS files?
-Just add the files into the JS folder and import the file/variables into your index.js. E.g: `import myVar from "./file2.js"`
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/ManuuMT/Random-Card-Generator.git)
 
-#### 6) How do I publish the website?
 
-This boilerplate is 100% compatible with the free github pages hosting. Publish your website by running:
+- Opción nº2: Puedes clonar este repositorio desde la consola de Gitpod con el siguiente comando:
+
 ```sh
-$ npm run deploy
+git clone https://github.com/ManuuMT/Random-Card-Generator.git
 ```
 
-Very easy and in just one step!  Push to your __master__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your master branch.
+
+## 2. Cómo abrir el proyecto
+
+
+Antes de comenzar deberás instalar los paquetes necesarios para poder compilar el proyecto. Para esto debes ingresar por la consola los siguientes 2 comandos en este mismo orden:
+
+
+```sh
+npm install
+
+```
+
+```sh
+npm run start
+```
+
+> Aclaración: Antes de ejecutar estos comandos debes ingresar por consola a la carpeta perteneciente al proyecto, para esto: 
+
+```sh
+cd Random-Card-Generator
+```
+
+
+## Aclaración final
+
+
+Si tienes alguna duda acerca del funcionamiento de cualquiera de las líneas de código, ten en cuenta que encontrarás comentarios con instrucciones detalladas a lo largo de todo el proyecto.
